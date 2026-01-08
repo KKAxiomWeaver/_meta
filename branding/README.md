@@ -1,6 +1,6 @@
 <p align="center">
   <img src="Branding/kkaxiomweaver-banner.svg"
-       alt="KKAxiomWeaver Whitepaper Research Center Banner" />
+       alt="_meta Research Center Banner" />
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 
 <p align="center">
   <img src="_meta/branding/kkaxiomweaver-banner.svg"
-       alt="KKAxiomWeaver Whitepaper Research Center Banner" />
+       alt="_meta Research Center Banner" />
 </p>
 
 <p align="center">
