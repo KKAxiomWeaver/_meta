@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./_meta/branding/kkaxiomweaver-banner.svg"
+  img src="./_meta/branding/kkaxiomweaver-banner.svg"
        alt="KKAxiomWeaver Whitepaper Research Center Banner" />
 </p>
 
