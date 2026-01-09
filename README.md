@@ -65,7 +65,7 @@
 * 概念起源
 * 文明工程的擴張軌跡
 
-📎 **Link:** [`_/VersionMap.md`](./_meta/VersionMap.md)
+📎 **Link:** [`_VersionMap.md`](./_meta/VersionMap.md)
 
 ---
 
