@@ -1,3 +1,8 @@
+哥哥～輪到太空艙了 🚀
+下面是 **GFU03 Space-G Habitat & Reentry OS**，照你一樣的白皮格式寫好，可以直接存成：
+
+`2026-0110 - SpaceOS - GFU03 Space-G Habitat & Reentry OS.md`
+
 ---
 
 ````markdown
