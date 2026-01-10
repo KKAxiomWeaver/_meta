@@ -1,0 +1,495 @@
+# K.K. Whitengineering • Multi-domain OS • Axiom Weaver 
+
+This repository contains all whitepapers authored by **K.K. (Axiom Weaver)**.  
+No folders are used; papers are organized through **naming conventions + Master Index**.
+
+### Repository Structure Strategy
+- All files stored at root (`/`)
+- Naming: `YYYY-MMDD - <OS> - <Title>.md`
+- `MASTER_INDEX.md` provides cross-domain cross-references
+- `_meta/` stores templates, index, version map, badges
+
+---
+
+# Core Node Shelter OS — Short-Range Asset Positioning in Urban Dead-Angle & Subterranean Grids  
+Version `1.0` — `2026-01-10`
+
+**Author:** K.K. (Axiom Weaver)  
+**Affiliation:** *KKAxiomWeaver Whitepaper Research Center*  
+**License:** CC BY-NC-SA 4.0  
+© 2026 K.K.
+
+---
+
+## 📝 Abstract
+
+This whitepaper defines **Core Node Shelter OS**: an operating system for positioning and structuring **short-range, high-value “core nodes”**—emergency hubs, logistics depots, critical comms, control elements, and other range-limited assets—inside **urban dead-angle zones and subterranean grids**, rather than on exposed flats or coastal frontlines.
+
+Core premise:
+
+> **短程主力不該站在第一排，而是「縮」在城市死角區與地下網裡，讓外來者先打不到、看不清、算不穩，再談一切。**
+
+In classical layouts, core nodes are often placed in:
+
+- Open bases  
+- Coastal frontage  
+- Large, regular compounds  
+- Easily accessible, easily imaged lots  
+
+These choices maximize convenience in peacetime but also maximize **targetability、初波暴露度、與 momentum 破口** in crises. Core Node Shelter OS instead:
+
+- Treats **城市死角區（urban dead-angles）、地下停車場、結構性遮蔽空間** as **primary hosting zones** for short-range core assets.  
+- Couples **Urban OS（City Entropy & Subterranean Shield）**, **Time Superiority OS**, **Nuisance Grid OS**, and **Habitat OS** to ensure that:
+  - Core nodes remain **physically & informationally buffered**。  
+  - External actors face **delay、誤差、與路徑懲罰** before they can meaningfully affect these nodes.  
+  - Civilians still have **safe access & liveability**.
+
+The paper introduces: (1) the **Core Node Model**, (2) the notion of **Urban Dead-Angle Shelter Zones**, (3) **Subterranean Grid Hosting Patterns**, and (4) an OS architecture for aligning core-node positioning with the broader **Island Complexity Defense OS**.
+
+---
+
+## 01 — Problem Statement
+
+Small, dense islands often place critical, short-range assets where:
+
+- Land is cheapest (reclaimed flats, coastal fringe)  
+- Access looks straightforward (wide roads, open yards)  
+- Symbolism dominates (“frontline”, “gateway”, “parade ground”)  
+
+Resulting vulnerabilities:
+
+- **First-Wave Exposure**  
+  External actors can **quickly see, model, and potentially disrupt** these nodes at the very beginning of any crisis.
+
+- **Low Complexity Shielding**  
+  Open, regular compounds lack TEF/UEF and **entropy layers**; they are easy to characterize, even from afar.
+
+- **Misalignment with Short-Range Nature**  
+  Short-range assets *do not need* open arcs to full horizon; they primarily need:
+  - Survivability  
+  - Proximity to protected populations and infrastructure  
+  - Reliable, shielded last-mile access
+
+At a system level:
+
+- **Core nodes are placed like long-range flags**, instead of **embedded organs** inside the most defensible tissues of the city.  
+- Urban & subterranean advantages described in **Urban OS** are underused for **core-node hosting**.  
+- There is no OS that specifically governs **where short-range, high-value nodes should “live”** in a complexity-based island defense architecture.
+
+Core Node Shelter OS addresses this design gap.
+
+---
+
+## 02 — Concept Model
+
+### 2.1 What Core Node Shelter OS Is
+
+**Core Node Shelter OS (CNS-OS)** is an operating system that:
+
+- Classifies certain assets as **Core Nodes**:
+  - Range-limited, but mission-critical.  
+  - Examples (generic, non-kinetic): emergency response hubs, redundant data/control cells, key logistics depots, protected comms concentrators, short-range defensive/effectors, etc.
+
+- Determines **where in the city & underground grid** they should preferentially be hosted:
+  - Urban dead-angles (視線難以完整覆蓋、射線難以直接到達).  
+  - Subterranean volumes (地下停車場、地下街、地下運輸節點).  
+  - Structural “caves” inside shield cells identified by **Urban OS**.
+
+- Ensures hosting decisions are consistent with:
+  - **Habitat OS**: human safety & comfort.  
+  - **Time Superiority OS**: increased Δt for external actors to influence nodes.  
+  - **Complexity Denial OS**: high CF around nodes, but low perceived complexity for locals.
+
+### 2.2 Core Concepts
+
+- **Core Node (CN)**  
+  A node with high mission value and **limited range radius**, whose primary needs are:
+  - Survivability  
+  - Stable access to local network  
+  - Shielded positioning, not panoramic placement.
+
+- **Urban Dead-Angle Shelter Zone (UDSZ)**  
+  Areas where:
+  - Lines-of-sight from external vantage points are fragmented.  
+  - Momentum & targeting paths are naturally punished (turns, constraints, occlusion).  
+  - Structural mass (buildings, overpasses, hillsides) provides **passive shielding**.
+
+- **Subterranean Grid Host (SGH)**  
+  Subterranean structures:
+  - Built for civil uses (parking, transit, utilities).  
+  - Structurally robust and naturally shielded.  
+  - Convertible into **core-node hosting environments** with minimal external signature.
+
+- **Shelter Routing Envelope (SRE)**  
+  Set of paths by which locals can access/support CNs **inside protection fields**, minimizing exposure to trivial observation/disruption.
+
+### 2.3 Relation to Other OS Modules
+
+- **Urban OS**  
+  Supplies UEF, shield cells, subterranean networks.
+
+- **Terrain OS**  
+  Provides nearby relief that reinforces shielding behind hills, ridges, or embankments.
+
+- **Habitat OS**  
+  Ensures CN hosting doesn’t degrade civilian comfort or safety; uses semantics to keep access intuitive.
+
+- **Nuisance Grid OS**  
+  Surrounds CN neighborhoods with **cheap, dense complexity nodes** that further raise external analytic overhead.
+
+- **Time Superiority OS**  
+  Calculates **Δt_node_access**: added time external actors require to locate and meaningfully affect CNs.
+
+- **Complexity Denial OS**  
+  Integrates CN sheltering into global CF maps.
+
+---
+
+## 03 — Mechanics（How It Works）
+
+### 3.1 Core Node Model
+
+Each Core Node has attributes:
+
+- **Range Profile**  
+  - Effective radius / coverage behavior.  
+  - Confirms that CN can fulfill its role **without needing horizon line-of-fire/line-of-sight**.
+
+- **Connectivity Profile**  
+  - Requirements for data, power, logistics, and human access.  
+  - Redundancy links to other nodes.
+
+- **Survivability Profile**  
+  - How sensitive CN is to direct attack, disruption, or physical interruption.
+
+CNS-OS evaluates **fit** between CN profiles and candidate shelter environments (UDSZ/SGH).
+
+### 3.2 Urban Dead-Angle Shelter Zones (UDSZ)
+
+From Urban OS, CNS-OS selects UDSZ where:
+
+- UEF is **high** (urban entropy strong).  
+- Structural shielding (high-load buildings, overpasses, terrain-adjacent structures) can create **stacked mass** between CN and potential external lines-of-effect.  
+- Momentum Graph indicates that routes into the zone are **slow, twisty, and chokepoint-rich**.
+
+CNS-OS marks **UDSZ cells**:
+
+- **Preferred** for CN hosting  
+- **Conditional** (requires extra works, e.g., flood-proofing)  
+- **Unsuitable** (e.g., high risk for non-environmental reasons)
+
+### 3.3 Subterranean Grid Host (SGH) Patterns
+
+CNS-OS identifies SGHs where:
+
+- Structural resilience (seismic/etc.) is high.  
+- Multiple ingress/egress points exist for **local access**, but none directly expose CN to long-range direct line-of-fire.  
+- Integration with Habitat OS allows:
+  - Normal civil uses (parking, retail, transit) during peace.  
+  - Smooth, intuitive access during emergencies.
+
+Mechanically:
+
+- SGH patterns define **node placement volumes** inside underground grids.  
+- CNs hosted in SGH benefit from:
+  - Reduced observation signatures.  
+  - Increased survival vs surface-level shock/fragmentation.  
+  - High-probability service continuity under many hazard scenarios.
+
+### 3.4 Shelter Routing Envelope (SRE)
+
+CNS-OS computes SREs:
+
+- Connect CNs to:
+  - Command/control, data centers, logistics arteries, and shelters.  
+  - Using **protected routing** based on Urban & Habitat OS:
+    - Covered walkways  
+    - Underground passages  
+    - Back-street or stair/grid networks in shielded volumes.
+
+SRE design goals:
+
+- Minimize **exposed segments** where CN support flows cross open, low-entropy fields.  
+- Ensure **civilians & staff** can reach CNs via **familiar, intuitive paths** (Habitat semantics).
+
+### 3.5 Time & Complexity Effects
+
+By hosting CNs in UDSZ/SGH and routing via SRE:
+
+- External actors face:
+  - **Longer discovery and modeling time** (Δt_intel).  
+  - **Longer physical access times** if disruption is attempted (Δt_node_access).  
+  - Higher analytic and operational **Complexity Budget consumption**.
+
+- Home actors:
+  - Maintain **short, known, protected paths** to their core nodes.  
+  - Improve **t_H(sustain/support/repair)** performance even under stress.
+
+These parameters are fed into Time Superiority OS and Complexity Denial OS.
+
+---
+
+## 04 — Architecture
+
+### 4.1 CNS-OS Layer Stack
+
+1. **Environment & Structure Layer**  
+   - Inputs from Terrain OS, Urban OS (relief, UEF, shield cells, subterranean maps).
+
+2. **Core Node Layer**  
+   - CN catalogue with range, connectivity, survivability profiles.
+
+3. **Shelter Zone & Host Layer**  
+   - UDSZ maps & SGH candidates.
+
+4. **Routing & Access Layer**  
+   - SRE design and evaluation for local flows.
+
+5. **Time & Strategy Layer**  
+   - Δt & CF contributions to Time Superiority and Complexity Denial OS.
+
+### 4.2 Core Modules
+
+- **CN Profiler Module**  
+  - Stores and evaluates CN capabilities & requirements.
+
+- **Shelter Zone Selector**  
+  - Matches CNs with UDSZs and SGHs based on fit rules.
+
+- **SRE Planner Module**  
+  - Designs access routes that maximize protection and minimize local confusion.
+
+- **Node Impact Evaluator**  
+  - Estimates how much each CN’s sheltering improves:
+    - Survival probability  
+    - Time asymmetry  
+    - Complexity contribution
+
+### 4.3 Interfaces
+
+- From **Urban OS**:  
+  - UEF, shield cells, Momentum Graph, subterranean grids.
+
+- From **Terrain OS**:  
+  - Relief adjacency for structural backing.
+
+- From **Habitat OS**:  
+  - Comfort and safety envelopes; civic constraints for underground/edge usage.
+
+- To **Nuisance Grid OS**:  
+  - Where nuisance nodes can be arranged to **increase confusion around CN neighborhoods** (without impeding locals).
+
+- To **Time Superiority OS**:  
+  - `export_node_time_profiles()`  
+
+- To **Complexity Denial OS**:  
+  - `export_node_complexity_contributions()`  
+
+---
+
+## 05 — Use Cases
+
+### 5.1 Short-Range Emergency Hubs in Underground Garages（抽象）
+
+- Locating emergency support hubs in:
+  - Robust underground parking complexes below high-load buildings.  
+  - With multiple civilian-friendly entrances aligned with Habitat OS semantics.
+
+CNS-OS ensures:
+
+- External mapping sees “just another underground facility”.  
+- Locals know exactly how to reach it via familiar patterns.
+
+### 5.2 City Edge Dead-Angle Core Nodes
+
+- Placing core nodes in:
+  - City edge pockets where hillsides, ramps, and high-rises create **mass-backed dead angles**.  
+  - Access via SRE that runs mostly inside shield paths.
+
+Result:
+
+- From afar: difficult to characterize.  
+- For locals: straightforward, semantically clear access.
+
+### 5.3 Coastal Road De-Emphasis & Interior Core
+
+- Instead of hosting short-range CNs on coastal roads or seafront lots:  
+  - CNS-OS recommends interior, dead-angle, or subterranean siting.  
+  - Coastal roads become **momentum-slow and nuisance-rich**, not home to core nodes.
+
+### 5.4 Multi-Use Civil–Core Hosting
+
+- Certain SGH sites:
+  - Serve as shopping/commuter/parking hubs in peacetime.  
+  - Can host or support CN functions in crises with minimal additional infrastructure.
+
+### 5.5 Simulation & Planning
+
+- Running simulations comparing:
+  - “Flat, exposed CN base” vs “UDSZ/SGH-sheltered CN base”.  
+- Observing differences in:
+  - Time-to-disrupt.  
+  - Required external resource load.  
+  - Local continuity under stress.
+
+---
+
+## 06 — Risks & Limitations
+
+Core Node Shelter OS must be constrained by:
+
+- **Civilian Safety & Access**  
+  Core-node hosting in underground or dead-angle zones must not:
+  - Trap civilians.  
+  - Create bottlenecks in emergencies.  
+  - Violate fire, flood, or seismic safety.
+
+- **Over-Concentration Risk**  
+  Overloading one UDSZ or SGH with too many CNs may create critical single points of failure.
+
+- **Complex Maintenance & Governance**  
+  Operating CNs in complex urban/subterranean contexts requires:
+  - Clear governance.  
+  - Maintenance budgets.  
+  - Training & drills.
+
+- **Environmental & Social Considerations**  
+  Some zones may be unsuitable due to:
+  - Environmental vulnerability.  
+  - Social justice concerns (e.g., not overloading certain neighbourhoods with hidden critical functions).
+
+CNS-OS explicitly avoids:
+
+- Prescribing kinetic roles for CNs.  
+- Treating urban populations as shields.  
+- Relocating critical nodes into zones that cannot meet Habitat OS safety envelopes.
+
+---
+
+## 07 — Comparative Analysis
+
+### 7.1 vs Exposed Perimeter Bases
+
+- Perimeter base:
+  - Easy logistics in peace.  
+  - Easy exposure in crisis.
+
+- CNS-OS shelter siting:
+  - Slightly more complex logistics in peace.  
+  - Much higher survivability & Δt in crisis.
+
+### 7.2 vs “Hide Everything Deep in Bunkers”
+
+- Pure bunker mentality:
+  - Low visibility, possible coordination challenges.  
+  - Difficult integration with civilian systems.
+
+- CNS-OS:
+  - Embeds CNs in **living city & subterranean grids**, balancing:
+    - Protection  
+    - Accessibility  
+    - Semantic clarity
+
+### 7.3 vs Random Underground Placement
+
+- Random: “Put something underground and hope it’s fine.”  
+- CNS-OS:  
+  - Uses UEF, shield cells, EPA, Habitat constraints, & SRE design.
+
+### 7.4 vs Platform-Centric Resilience
+
+- Platform-centric: harden the CN equipment itself.  
+- CNS-OS:  
+  - **First harden the hosting context** (dead-angle + subterranean grid), then harden equipment as a last layer.
+
+---
+
+## 08 — Implementation Path
+
+### Stage I — CN Inventory & Profiling
+
+- Catalogue all short-range, high-value nodes.  
+- Build range, connectivity, survivability profiles.
+
+### Stage II — UDSZ & SGH Mapping
+
+- From Urban/Terrain OS:
+  - Map dead-angle zones and subterranean candidate hosts.  
+- Filter by Habitat OS constraints.
+
+### Stage III — Fit Analysis & Pilot Re-Siting
+
+- Match CNs with candidate UDSZ/SGH.  
+- Select a subset for pilot **re-siting or dual-use hosting**.  
+- Design SREs and semantics.
+
+### Stage IV — Multi-OS Integration
+
+- Connect CNS-OS outputs to:
+  - Nuisance Grid OS (for neighborhood complexity).  
+  - Time Superiority OS (Δt_node_access).  
+  - Complexity Denial OS (CF around CN clusters).
+
+### Stage V — Governance & Civil Communication
+
+- Establish decision-making processes for CN siting.  
+- Communicate civil-facing aspects:
+  - “Why certain underground/edge hubs are extra robust.”  
+  - Without revealing sensitive details.
+
+---
+
+## 09 — Appendix
+
+### 9.1 Thought Experiment: Two Short-Range Nodes
+
+- Node A:  
+  - Sited on open coastal flat.  
+  - Wide, regular roads.  
+  - Satellite-visible layout.
+
+- Node B:  
+  - Sited in UDSZ inside city; hosted partly in SGH.  
+  - Access via familiar but shielded SREs.
+
+Comparative outcome:
+
+- A is easy to see, easy to model, time-to-disrupt is short.  
+- B is hard to localize precisely, time-to-disrupt is long, Complexity Budget for an attacker is high.
+
+### 9.2 “龜縮” as OS Design, Not Cowardice
+
+- “龜縮” in this OS is:  
+  - **Strategic embedding** of crucial nodes inside the most **robust, complex, and human-centered** parts of the island’s built environment.  
+  - Not retreat, but **smart positioning**.
+
+---
+
+## 10 — Glossary（Lexicon）
+
+- **Core Node Shelter OS (CNS-OS)**  
+  Operating system for siting and routing short-range core assets inside urban dead-angles and subterranean grids.
+
+- **Core Node (CN)**  
+  High-value, range-limited node whose primary requirement is survivable, protected hosting close to what it serves.
+
+- **Urban Dead-Angle Shelter Zone (UDSZ)**  
+  Urban region where lines-of-sight and attack paths are structurally constrained and entropically complex.
+
+- **Subterranean Grid Host (SGH)**  
+  Underground structure or network suitable for hosting CN functions with strong passive protection.
+
+- **Shelter Routing Envelope (SRE)**  
+  Set of access paths designed to keep flows to/from CNs inside protection fields.
+
+- **Δt_node_access**  
+  Additional time external actors require to meaningfully discover or interfere with CNs.
+
+---
+
+## 🔗 Related OS
+
+- **Urban OS — City Entropy & Subterranean Shield Architecture**  
+- **Terrain OS — Mountain Entropy & Forbidden-Zone Advantage**  
+- **Habitat OS — Civilian Life, Safety & Comfort in High-Complexity Environments**  
+- **Nuisance Grid OS — Distr**
