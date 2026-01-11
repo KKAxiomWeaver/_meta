@@ -1,0 +1,465 @@
+# K.K. Whitengineering • Multi-domain OS • Axiom Weaver 
+
+This repository contains all whitepapers authored by **K.K. (Axiom Weaver)**.  
+No folders are used; papers are organized through **naming conventions + Master Index**.
+
+### Repository Structure Strategy
+- All files stored at root (`/`)
+- Naming: `YYYY-MMDD - <WorldCode> - <OS> - <Title>.md`
+- `MASTER_INDEX.md` provides cross-domain cross-references
+- `_meta/` stores templates, index, version map, badges  
+
+> 📂 **Suggested filename:**  
+> `2026-0111 - FINCIV - ISLAND-OS - Island Strategy OS · Capital, Markets & Civilization Edges.md`
+
+---
+
+# Island Strategy OS · Capital, Markets & Civilization Edges  
+Version `0.9` — `2026-01-11`
+
+**Author:** K.K. (Axiom Weaver)  
+**Affiliation:** *KKAxiomWeaver Whitepaper Research Center*  
+**License:** CC BY-NC-SA 4.0  
+© 2026 K.K.
+
+---
+
+## 📝 Abstract
+
+Island Strategy OS 探討一種特殊文明節點：  
+
+> **高風險、高密度、高技術、但土地有限、人口有限、資本易出難回的「島嶼型文明邊界」。**
+
+這種島嶼一方面是全球供應鏈的重要關鍵節點，  
+另一方面又承受地緣風險、軍事壓力、資本撤出的第一線衝擊。  
+
+本白皮不談短線投機，而是把島嶼視為：
+
+- 一個介於 **文明主幹** 與 **資本棋盤邊界** 之間的關鍵「Edge Node」，  
+- 必須同時設計：  
+  - **實體防禦 / 韌性 OS**（CivMesh / NodeRes / Defense OS…）  
+  - **資本與市場 OS**（MK-OS / Capital Chessboard / Liquidity Windows…）  
+  - **Island Strategy OS** 作為它們之間的戰略橋樑。  
+
+Island Strategy OS 嘗試回答：
+
+1. 島嶼在全球文明 / 資本 / 市場棧中的 **結構位置** 是什麼？  
+2. 當外資、被動資金、主權資本、本地主力、散戶在島嶼市場互動時，  
+   **哪些行為是結構上「可預期」甚至「可設計」的？**  
+3. 如何設計一套「島嶼資本防禦與韌性戰略」，  
+   讓島嶼在最壞情境下仍有 **文明持續性** 與 **資源供應線**？  
+
+本 OS 連接：
+
+- 上游：Civ-OS、Hi-D Trend Engine、Foresight Mapping Engine、Capital Chessboard OS、MK-OS  
+- 下游：Defense OS、NodeRes OS、CivMesh OS、Habitat / Energy / Flight 等各種島嶼具體韌性模組  
+
+目標是為「島嶼文明工程師」提供一套可長期迭代的 **Island Capital & Strategy Blueprint**。
+
+---
+
+## 01 — Problem Statement
+
+島嶼文明常面臨一組共通問題：
+
+- **地理暴露度高**  
+  - 軍事、封鎖、制裁、物流中斷風險集中。  
+
+- **產業高度集中**  
+  - 特定高技術產業在全球佔比極高，  
+    但本地土地與人口有限，易形成「單一點失效」風險。  
+
+- **資本高度外部依賴**  
+  - 指數成分股、外資控股比重高、被動資金壓力大，  
+    一旦風險事件發生，容易螺旋式失血。  
+
+- **國內資本體量有限**  
+  - 即使有國家隊與本地主力，  
+    仍常被迫在全球資本風險偏好變化時被動承受。  
+
+現狀中存在幾個明顯缺口：
+
+1. **缺乏「島嶼視角」的市場 / 資本戰略 OS**  
+   - 多數金融／市場模型隱含假設：  
+     「市場是中性場域」，忽略島嶼是文明棋盤上的「前線節點」。  
+
+2. **實體防禦與資本防禦割裂**  
+   - 防禦白皮常聚焦於軍事、基礎建設、韌性網路，  
+   - 市場白皮常聚焦於資本流、價格、配置，  
+   - 很少有 OS 將兩者視為同一條「文明生存供應鏈」上的不同層。  
+
+3. **缺乏長期、文明級別的 Island Capital Blueprint**  
+   - 島嶼如何設計自己的：  
+     - 產業分佈  
+     - 市場結構  
+     - 國際資本關係  
+     - 本地資本緩衝層  
+   - 目前多半以政策、個案反應方式處理，缺乏系統化 OS。  
+
+Island Strategy OS 針對的是：
+
+> **如何在「文明長期存續」這個目標下，  
+> 重新設計島嶼的資本配置、產業節點與市場結構。**
+
+---
+
+## 02 — Concept Model
+
+### 2.1 Island as Civilization Edge Node
+
+本 OS 將島嶼定義為：
+
+> **Civilization Edge Node（文明邊界節點）**  
+
+其特性：
+
+- 連接 Core（全球文明主幹）與 Frontier（前線 / 高風險區）。  
+- 同時承載：  
+  - 高階技術產能  
+  - 高戰略價值  
+  - 高資本折價  
+  - 高生存壓力  
+
+### 2.2 Island Strategy OS 的核心任務
+
+1. **「不爆掉」戰略**  
+   - 在最壞情境下，保持文明最低運作線：  
+     能源、飲水、食物、網路、交易、部分產業鏈。  
+
+2. **「不被抽乾」戰略**  
+   - 在平時，盡可能避免被全球資本、供應鏈、人才過度抽離，  
+     形成單向輸出、難以累積本地韌性的狀態。  
+
+3. **「不被邊緣化」戰略**  
+   - 在長期文明向量下，保持島嶼在全球棋盤上的必要性與存在感。  
+
+### 2.3 三層 Island Strategy Stack
+
+Island Strategy OS 將島嶼戰略拆成三層：
+
+1. **Civilization & Narrative 層**  
+   - 島嶼在文明故事中的角色：  
+     - 供應鏈節點  
+     - 防線節點  
+     - 文化節點  
+
+2. **Capital & Market 層**（本白皮重點）  
+   - 島嶼如何設計：  
+     - 自己的市場 OS（透過 MK-OS）  
+     - 資本防禦層（國家隊 / 本地資本網）  
+     - 與外資、主權資本的互動。  
+
+3. **Infrastructure & Mesh 層**  
+   - 將上層戰略落實到：  
+     - Energy / Habitat / Flight / CivMesh / NodeRes / Defense OS…  
+
+Island Strategy OS 是這三層之間的「戰略翻譯器」與「對位器」。
+
+---
+
+## 03 — Mechanics（How It Works）
+
+### 3.1 Island Strategic Triangles（三角張力）
+
+在 Island Strategy OS 中，任何重大決策都要放入三個三角張力中評估：
+
+1. **文明三角**  
+   - Global Core（全球文明主幹）  
+   - Island Node（島嶼節點）  
+   - Frontier / Adversarial Space（對抗空間）  
+
+2. **資本三角**  
+   - Global Capital（GCF）  
+   - Island Capital（本地／主權資本）  
+   - Adversarial / Opportunistic Capital  
+
+3. **市場三角**  
+   - 核心市場（Core Mode）  
+   - 島嶼市場（Island Mode in MK-OS）  
+   - 灰色／脫鉤市場（制裁／非正式市場）  
+
+Island Strategy OS 的運作原則是：
+
+> **任何島嶼政策／產業布局／資本安排，  
+> 至少要在以上三個三角中可自洽，  
+> 且不在三角某一端形成「極度單邊依賴」。**
+
+### 3.2 Strategic Layers & Buffers
+
+島嶼策略需要設置多重緩衝層（Buffers）：
+
+- **產業 Buffers**：  
+  - 不讓關鍵產業只綁一條供應鏈／單一客戶。  
+
+- **資本 Buffers**：  
+  - 不讓全部關鍵資產只被單一類型資本持有。  
+
+- **市場 Buffers**：  
+  - 在極端 Regime（R1 / R2 in MK-OS）時，  
+    仍有最低限度價格發現與流動性維持。  
+
+Mechanics 上，Island Strategy OS 會：
+
+1. 對每一關鍵節點（產業 / 企業 / 基礎設施）標註：  
+   - 文明重要性  
+   - 資本集中度  
+   - 外資／本地資本結構  
+   - 供應鏈依賴度  
+
+2. 對每一種風險情境（封鎖、制裁、戰爭、金融風暴）設計：  
+   - 資本動線替代路徑  
+   - 市場最低運作模式  
+   - 本地資本接手策略  
+
+### 3.3 Integration with MK-OS
+
+Island Strategy OS 與 MK-OS 的互動機制：
+
+- 當 MK-OS 判定 Island Mode + 特定 Regime（例如 R2 Local Shock）：  
+  - Island Strategy OS 啟動相對應策略：  
+    - 資本緩衝啟用（SOV / Island Capital action）  
+    - 關鍵節點股權穩定機制  
+    - 特定產業暫時性支撐  
+    - 防止關鍵企業在最壞時點被惡意收購 / 抽空。  
+
+反之，在 R0 / R4（正常＋結構重估）時：  
+- Island Strategy OS 會建議：  
+  - 何時應該讓外資擴張持股（換取國際棋盤位置與盟友資本）  
+  - 何處需保留最少主權資本持股比例。  
+
+---
+
+## 04 — Architecture
+
+### 4.1 Island Strategy OS · Structural View
+
+1. **Scenario & Civilization Layer**  
+   - 接入 Civ-OS、Hi-D Trend Engine 的島嶼相關場景。  
+
+2. **Mapping Layer（對位層）**  
+   - 使用 Foresight Mapping Engine，  
+     找出島嶼在各文明向量下的必然產業錐與節點。  
+
+3. **Capital & Market Layer**  
+   - 使用 Capital Chessboard + MK-OS，  
+     描述外資、本地資本、主權資本在這些節點上的棋盤分布。  
+
+4. **Strategy Layer（本 OS 核心）**  
+   - 定義：  
+     - 緩衝層設計  
+     - 島嶼資本防禦策略  
+     - 市場結構微調路線  
+
+5. **Execution & Infra Layer**  
+   - 交給：NodeRes / CivMesh / Defense OS / Habitat / Energy OS 等  
+     具體實作「物理與社會層面的韌性」。  
+
+### 4.2 Modules
+
+- **Island Role Analyzer Module**  
+  - 分析島嶼在全球文明與棋盤中的角色。  
+
+- **Critical Node Classifier**  
+  - 找出需被優先保護／維持主導權的節點。  
+
+- **Capital Buffer Designer**  
+  - 設計主權資本、本地資本的配置與啟動邏輯。  
+
+- **Market Structure Tuner**  
+  - 建議市場規則、產品結構、指數設計等微調方向  
+    （抽象級，不涉及具體政策）。  
+
+- **Resilience Scenario Mapper**  
+  - 將不同風險情境連接到具體策略與 OS 模組。  
+
+### 4.3 Dependencies
+
+- 上游：  
+  - Civ-OS  
+  - Hi-D Trend Engine OS  
+  - Foresight Mapping Engine OS  
+  - Capital Chessboard OS  
+  - Liquidity Window OS  
+  - MK-OS  
+
+- 橫向：  
+  - NodeRes OS（節點韌性）  
+  - CivMesh OS（民間／節點網絡）  
+  - Defense OS（軍事／戰略防禦）  
+
+---
+
+## 05 — Use Cases
+
+1. **為島嶼文明設計「資本版防禦計畫」**  
+   - 如同防空網、防護罩，  
+     但對象是：  
+     - 關鍵企業股權  
+     - 核心產業鏈  
+     - 本地資本與人才池  
+
+2. **幫助決策者辨識「哪些節點可以讓外資主導，哪些不能」**  
+   - 不是簡單的「親 or 疏」，  
+     而是：  
+     - 哪些節點需要國家保留最小控制權  
+     - 哪些節點可以用外資交換國際支援與棋盤位置。  
+
+3. **在壓力情境下（R2 Island Shock）提供行動地圖**  
+   - 當資本與市場受壓時，  
+     Island Strategy OS 提供：  
+     - 優先守哪裡？  
+     - 可以放哪裡？  
+     - 哪些系統啟動最低維持模式？  
+
+4. **協助長線島嶼資本（SOV / Island Capital）制定 10–20 年藍圖**  
+   - 避免只被動買指數或追外資腳步，  
+     而是主動思考文明層面：  
+     「島嶼要在未來文明裡活在哪個角色？」  
+
+5. **提供未來白皮的掛載主幹**  
+   - 如：  
+     - Island Pension & ETF Lattice OS  
+     - Island Resilience Fund OS  
+     - Island Dual-Currency / Dual-Market OS 等。  
+
+---
+
+## 06 — Risks & Limitations
+
+1. **高度抽象，難以直接映射到具體政策**  
+   - 本 OS 側重戰略與結構，  
+     需要與實務層進一步對接。  
+
+2. **地緣政治敏感性**  
+   - 一旦引用具體國家／企業案例，  
+     容易落入政治爭議，  
+     因此本白皮刻意保持抽象。  
+
+3. **對上游白皮的依賴高度**  
+   - 若 Civ-OS / Trend Engine / Chessboard 模型更新，  
+     Island Strategy OS 需同步調整。  
+
+4. **執行力落差風險**  
+   - 即使戰略方向正確，  
+     實際執行仍受限於政治、社會共識與資源。  
+
+5. **時間尺度與民主週期的張力**  
+   - Island Strategy OS 常是在 10–20 年尺度思考，  
+     與短期民意與選舉節奏之間存在結構張力。  
+
+---
+
+## 07 — Comparative Analysis
+
+### vs 傳統「國家產業政策」文件
+
+- 傳統：  
+  - 側重產業補貼、園區規劃、稅制。  
+- Island Strategy OS：  
+  - 從文明、資本、供應鏈與戰略角度出發，  
+    將市場與防禦視為同一文明 OS 的不同層。  
+
+### vs 純粹軍事／國防戰略
+
+- 軍事戰略：  
+  - 聚焦武裝衝突、軍力平衡、聯盟。  
+- Island Strategy OS：  
+  - 將「資本撤離、制裁、供應鏈斷裂」視為另一種戰場，  
+    需要同等級的戰略設計。  
+
+### vs 傳統「金融發展白皮書」
+
+- 金融發展文件：  
+  - 聚焦市場成長、金融商品多樣化。  
+- 本 OS：  
+  - 聚焦 **生存與韌性**，  
+    先問：「在最壞時，市場如何不崩？」  
+    再談：「在平時，如何為文明升級提供燃料？」  
+
+---
+
+## 08 — Implementation Path
+
+### Stage I — Conceptual Island Mapping
+
+- 在 Civ-OS 中標記島嶼場景與主要文明向量；  
+- 用 Foresight Mapping Engine 定義島嶼的產業錐與關鍵節點。  
+
+### Stage II — Capital / Market Structure Profiling
+
+- 用 MK-OS + Capital Chessboard 視角，  
+  抽象分析：  
+  - 外資 vs 本地資本 vs 主權資本分布  
+  - ETF / 被動資金角色  
+  - 市場模式與脆弱點。  
+
+### Stage III — 初版 Island Strategy Skeleton
+
+- 寫出：  
+  - 優先保護節點清單（抽象類型）  
+  - 資本緩衝層（SOV / Island Capital）架構  
+  - Regime 對應行動原則。  
+
+### Stage IV — OS Integration & Iteration
+
+- 將 Island Strategy OS 與：  
+  - NodeRes / CivMesh / Defense / Habitat / Energy OS  
+  互相 cross-link；  
+- 未來按實際情勢更新版本（v1.0, v1.1…）。  
+
+---
+
+## 09 — Appendix
+
+- A1. Island Strategic Triangles 的文字示意  
+- A2. 島嶼模式的典型風險情境列表（抽象）。  
+- A3. Example：某高技術產業島嶼在不同文明場景下的角色演化（不具名）。  
+
+---
+
+## 10 — Glossary（Lexicon）
+
+- **Island Strategy OS**  
+  針對高風險、高價值島嶼節點的資本與市場戰略 OS。  
+
+- **Civilization Edge Node（文明邊界節點）**  
+  位於文明主幹與對抗空間之間的關鍵節點。  
+
+- **Island Mode（島嶼模式）**  
+  MK-OS 中對具特殊地緣與產業集中度市場的一種模式定義。  
+
+- **Capital Buffer（資本緩衝層）**  
+  由主權資本與本地資本構成的防禦層，用以在極端情境吸收衝擊。  
+
+- **Strategic Triangles（戰略三角）**  
+  文明／資本／市場三角結構，用以檢查策略是否過度偏向某一端。  
+
+- **Edge Scenario（邊界情境）**  
+  描述島嶼在風險頂點（封鎖、制裁、金融風暴）中的運作模式。  
+
+---
+
+## 🔗 Related OS
+
+- Civ-OS（Civilization OS）  
+- Hi-D Trend Engine OS · 高維趨勢引擎 vs 低維 K 線  
+- Foresight Mapping Engine OS · 文明→產業→企業的前視映射引擎  
+- Capital Chessboard OS · 外資控制權棋盤模型  
+- Liquidity Window OS · 長假 / 繳稅 / ETF 壓力的流動性窗口模型  
+- MK-OS · Market OS · Island & Global  
+- NodeRes OS / CivMesh OS / Defense OS / Habitat / Energy OS（相關韌性模組）  
+
+---
+
+## 📚 How to Cite
+
+K.K. (2026). *Island Strategy OS · Capital, Markets & Civilization Edges*.  
+*KKAxiomWeaver Whitepaper Research Center.*  
+https://github.com/KKAxiomWeaver/Whitepapers  
+
+---
+
+## 🛡 License
+
+This work is licensed under **Creative Commons CC BY-NC-SA 4.0**.  
+© 2026 K.K. (Axiom Weaver)
